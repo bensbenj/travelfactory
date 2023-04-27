@@ -1,0 +1,111 @@
+#user-list {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+#addUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#addUser:hover {
+  cursor: pointer;
+  background-color: #666;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  min-width: 412px;
+  min-height: 164px;
+}
+
+.card img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.job {
+  position: absolute;
+  border: none;
+  left: 9%;
+  background-color: transparent;
+  bottom: 3%;
+}
+
+.card h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.card h5 {
+  margin: 0;
+  margin-top: 10px;
+  color: #333;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  height: 164px;
+  flex-direction: column-reverse;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons i {
+  margin-left: 10px;
+  font-size: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.icons i:hover {
+  cursor: pointer;
+  color: #8b8b8b;
+}
+
+#form {
+  display: none;
+}
+
+#button {
+  background-color: #3134f3;
+  color: white;
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#button:hover{
+  background-color: #090a72;
+}
